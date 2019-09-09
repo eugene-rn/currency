@@ -22,7 +22,7 @@ Title.propTypes = {
 }
 
 Title.defaultProps = {
-  currencies: [],
+  type: "",
 }
 
 export default Title;
