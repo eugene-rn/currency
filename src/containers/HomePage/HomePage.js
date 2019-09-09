@@ -21,8 +21,8 @@ const HomePage = () => {
         .get("https://openexchangerates.org/api/currencies.json")
         .then(response => {
           setCurrencyList(formatCurrency(response.data));
+          setIsLoading(false);
         });
-      setIsLoading(false);
     } catch (err) {
       setIsLoading(false);
       setError(err);
