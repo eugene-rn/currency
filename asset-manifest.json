@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/currency/static/css/main.cb58d331.chunk.css",
-    "main.js": "/currency/static/js/main.930f032b.chunk.js",
-    "main.js.map": "/currency/static/js/main.930f032b.chunk.js.map",
+    "main.js": "/currency/static/js/main.b5e3e812.chunk.js",
+    "main.js.map": "/currency/static/js/main.b5e3e812.chunk.js.map",
     "runtime~main.js": "/currency/static/js/runtime~main.4dae5839.js",
     "runtime~main.js.map": "/currency/static/js/runtime~main.4dae5839.js.map",
     "static/js/2.a89e8c92.chunk.js": "/currency/static/js/2.a89e8c92.chunk.js",
     "static/js/2.a89e8c92.chunk.js.map": "/currency/static/js/2.a89e8c92.chunk.js.map",
     "index.html": "/currency/index.html",
-    "precache-manifest.ebf2d8b3d578cbd7917552d8b3c6472b.js": "/currency/precache-manifest.ebf2d8b3d578cbd7917552d8b3c6472b.js",
+    "precache-manifest.11932993b54bda9d3d288fea387f9cc8.js": "/currency/precache-manifest.11932993b54bda9d3d288fea387f9cc8.js",
     "service-worker.js": "/currency/service-worker.js",
     "static/css/main.cb58d331.chunk.css.map": "/currency/static/css/main.cb58d331.chunk.css.map",
     "static/media/spin.svg": "/currency/static/media/spin.24b07114.svg"
