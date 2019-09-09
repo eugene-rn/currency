@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Title = ({ type, children }) => {
   switch(type) {
@@ -13,6 +14,15 @@ const Title = ({ type, children }) => {
     default:
       return <h1>{children}</h1>
   }
+}
+
+Title.propTypes = {
+  type: PropTypes.string,
+  children: PropTypes.string.isRequired,
+}
+
+Title.defaultProps = {
+  currencies: [],
 }
 
 export default Title;

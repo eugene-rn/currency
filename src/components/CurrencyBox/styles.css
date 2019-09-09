@@ -1,9 +1,55 @@
 .textInput {
   width: 100%;
   border-radius: 10px;
-  height: 30px;
+  height: 35px;
   padding: 0 10px;
-  border: 1px solid #21274d49;
+  border: 1px solid #21274d24;
   outline: none;
   box-sizing: border-box;
+}
+
+.list {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.listContainer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  z-index: 3;
+  min-height: auto;
+  max-height: 300px;
+  overflow-y: auto;
+  /* display: none; */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 20px 20px 69px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* .textInput:focus + .listContainer {
+  display: block;
+} */
+
+.currencyBoxContent {
+  position: relative;
+}
+
+.item {
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item:hover {
+  background: #21274d;
+  color: #fff;
 }

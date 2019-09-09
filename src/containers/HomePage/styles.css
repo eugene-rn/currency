@@ -6,6 +6,9 @@
   box-sizing: border-box;
   padding: 30px;
   margin-top: 30px;
+}
+
+.container {
   display: flex;
   justify-content: space-between;
 }
@@ -16,4 +19,21 @@
 
 .info {
   font-size: 14px;
+  margin-top: 20px;
+}
+
+.error {
+  font-size: 14px;
+  margin-top: 20px;
+  background: #b64545;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.price {
+  padding: 3px;
+  display: inline-block;
+  background: #21274d14;
+  border-radius: 3px;
 }
